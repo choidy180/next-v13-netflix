@@ -1,4 +1,20 @@
 {
-    "presets": ["next/babel"],
-    "plugins": []
+    "presets": [
+        "next/babel"
+    ],
+    "plugins": [
+        [
+            "babel-plugin-styled-components",
+            {
+                "fileName": true,
+                "displayName": true,
+                "pure": true
+            }
+        ]
+    ]
 }
+
+// 최초 SSR이후 CSR로 라우팅을 하는데
+// 이 때 서버에서 생성하는 해시값과 브라우저에서 생성하는 해시값이 서로 달라서 에러가 발생하게 된다.
+// 이를 해결하기 위해 바벨 플러그인을 설치한다.
+// https://styled-components.com/docs/tooling
