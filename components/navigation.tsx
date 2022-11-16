@@ -54,9 +54,10 @@ const Container = styled.div`
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 999999;
 `
 const Left = styled.div`
-    padding: 20px 30px;
+    padding: 20px 60px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
