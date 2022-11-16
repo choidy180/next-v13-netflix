@@ -43,14 +43,16 @@ const MetaInfo = styled.div`
     margin-left: 60px;
     h1 {
         width: 100%;
-        font-size: 28px;
+        font-size: 34px;
         margin: 1vw 0;
+        font-family: 'Pretendard-Regular';
     }
     h2 {
         margin-top: 1vw;
-        font-size: 20px;
+        font-size: 22px;
         line-height: 28px;
         word-break: keep-all;
+        font-family: 'Pretendard-Regular';
     }
 `
 

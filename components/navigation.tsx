@@ -54,6 +54,7 @@ const Container = styled.div`
     position: fixed;
     top: 0;
     left: 0;
+    font-family: 'Pretendard-Regular';
     z-index: 999999;
 `
 const Left = styled.div`
@@ -63,7 +64,7 @@ const Left = styled.div`
     align-items: center;
     gap: 24px;
     span {
-        font-size: 16px;
+        font-size: 18px;
         color: #FFFFFF;
         opacity: 0.8;
         cursor: pointer;
