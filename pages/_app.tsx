@@ -5,6 +5,7 @@ import { GlobalStyle } from '../src/styles/global-style';
 import { theme } from '../src/styles/theme';
 import '../src/styles/globals.css';
 import Navigation from '../components/navigation';
+import * as React from 'react';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (

@@ -1,9 +1,10 @@
-import Image from "next/image";
 import styled from "styled-components";
 import InfoMetaLayer from "../components/home/info-meta-layer";
 import Line from "../components/line";
 
 const Index = () => {
+    const code = new URLSearchParams(window.location.search).get('code');
+    console.log(code);
     return (
         <>
             <InfoMetaLayer/>
